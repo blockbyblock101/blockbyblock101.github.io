@@ -2309,6 +2309,7 @@ input, select, textarea {
 		}
 
 /* Image */
+	.imgfit { width: 250px; height:500px; object-fit: cover}
 
 	.image {
 		border-radius: 4px;
@@ -2603,6 +2604,9 @@ input, select, textarea {
 				.tiles article > .image img {
 					display: block;
 					width: 100%;
+					width: 400px;
+					height: 350px;
+					object-fit: cover;
 				}
 
 				.tiles article > .image:before {
